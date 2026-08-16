@@ -1,7 +1,7 @@
 # Discovery Session 001
 
 Date:
-2026-08-14 through 2026-08-16
+2026-08-12 through 2026-08-16 (first message 20:11, last 16:23, US Central)
 
 Origin:
 Attempt to rewrite the R Street Chairman bio.
