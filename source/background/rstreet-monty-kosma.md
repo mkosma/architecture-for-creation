@@ -1,8 +1,8 @@
 # Monty Kosma, R Street Institute people page
 
-**Source:** https://www.rstreet.org/people/monty-kosma/
-**Retrieved:** 2026-08-16
-**Companions:** `rstreet-monty-kosma.html` (page as served), `rstreet-monty-kosma.pdf` (print rendering)
+- **Source:** https://www.rstreet.org/people/monty-kosma/
+- **Retrieved:** 2026-08-16
+- **Companions:** `rstreet-monty-kosma.html` (page as served), `rstreet-monty-kosma.pdf` (print rendering)
 
 This is the bio as published, the starting point that Discovery Session 001 set out to rewrite. Verbatim, not edited.
 
