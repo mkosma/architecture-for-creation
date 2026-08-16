@@ -1,0 +1,77 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+
+# iCloud placeholder files (a dataless file, not the content)
+*.icloud
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.\#*
+\#*\#
+
+# Obsidian workspace state (notes are tracked, UI state is not)
+.obsidian/workspace*
+.obsidian/cache
+.trash/
+
+# Node and JavaScript tooling
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.yarn/
+.pnp.*
+
+# Build output for the website and any visual tooling
+dist/
+build/
+.next/
+.nuxt/
+.svelte-kit/
+.cache/
+.parcel-cache/
+.astro/
+out/
+
+# Environment and secrets: never commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.*
+
+# Python, for occasional extraction and processing scripts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Working files from document conversion and image processing
+*.tmp
+*.temp
+*.bak
+*.orig
+~$*
+.~lock.*#
+*.log
+
+# Large generated media. Source files and finished artifacts are tracked;
+# intermediate renders are not. Add exceptions deliberately.
+*.mp4
+*.mov
+*.psd.tmp
