@@ -25,4 +25,6 @@ From `~/Library/Mobile Documents/com~apple~CloudDocs/Career` (iCloud Drive), all
 
 Files were renamed on copy to date-stamped names; every original path is recorded above and every copy is byte-identical to its original, verified by SHA-256.
 
-For the web captures, the `.html` and `.pdf` are the record and the `.md` is the reading copy.
+Every PDF and Word file has a `.md` reading copy of the same name beside it, so a drafting session can read the content without opening a binary. The binary is always the record; the `.md` is machine-extracted text with layout, tables, and images lost. PDFs were extracted with `mutool draw -F txt` and are split by `## Page N` (`## Slide N` for the deck); Word files with `textutil -convert txt`. Mid-sentence line breaks from the source layout were rejoined, and each remaining source line is its own block.
+
+For the web captures, likewise: the `.html` and `.pdf` are the record and the `.md` is the reading copy.
