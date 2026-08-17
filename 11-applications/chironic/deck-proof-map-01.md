@@ -1,10 +1,11 @@
-# Chironic Deck Proof Map
-## Draft 01 · 2026-08-17
+# Chironic Deck Proof DAG
+## Draft 01, revised same day to a DAG per the 2026-08-17 dialogue's closing amendment
 
 - **Audience:** seed investors (the deck this map governs is the investor deck; customer and recruit artifacts derive separately)
 - **Built against:** Kernel draft 0.2 (`09-kernel/architecture-kernel.md`)
 - **Sources:** Discovery Session 001; the three-way deck dialogue of 2026-08-17 (`00-discovery-sessions/discover-session-002.md`, and the ChatGPT-side session pending capture as 003); the 2026-08-15 deck held as primary artifact in `04-case-studies/`
-- **Method:** every node is a proposition the investor must believe before the next node's "therefore" is valid. Slides are laid out from this graph, not the reverse. A node that discharges into nothing gets cut; a branch that no product layer discharges means the proof is incomplete.
+- **Method:** this is a directed acyclic graph, not a tree. Every node is a proposition; every edge is a "therefore"; and load-bearing nodes deliberately feed multiple downstream conclusions (see the cross-edge table), so that a single proposition can support product, GTM, and moat without duplication. Slides are then projections of connected regions of the DAG, laid out from the graph, never the reverse.
+- **Two completion tests.** (1) *Discharge:* every open branch must be closed by a product layer; a node that discharges into nothing gets cut. (2) *Lineage:* every product feature, GTM choice, and moat claim must trace back through the DAG to one or more observed facts with no hidden "therefore." When both tests pass, the narrative is ready; "does it feel persuasive" is not the standard.
 
 ---
 
@@ -77,6 +78,22 @@ punished.
             ▼
      N15 Team (the explanation)  →  N16 Ask
 ```
+
+## Cross-edges (what makes this a DAG rather than a tree)
+
+The spine above shows the primary "therefore" chain. These additional edges are equally real, and they are why the load-bearing propositions must not be duplicated slide-by-slide: each is established once and then projected wherever it is needed.
+
+| From | Also feeds | Why |
+| --- | --- | --- |
+| N3a Economics (Hand) | N7 design principle; N12 business model; N13 market | The same formula sets the triage threshold, the pricing logic, and the latent-demand sizing |
+| N3b Preference (reasoning partner) | N8 workspace layer; N13 why-now | The preference dictates the workspace's design constraints and predates model quality, anchoring durability |
+| N5a Discoverable (Krafton) | N14 moat | The discoverability defect is also the permanent differentiation against every non-attorney vendor |
+| N6 Uniqueness (privilege, Upjohn/Hickman; ownership rules) | N8 architecture; N11 GTM; N14 moat | One institution simultaneously forces the attorney layer, blesses the firm channel, and bars AI-company entry |
+| N7 Design principle | N8 triage layer; N12 pricing; N9 product spec | One sentence, three implementations |
+| N10 Attorney incentives (the mirror) | N11 GTM; N12 business model; N14 moat | The same escalation event is distribution motive, revenue mechanic, and switching cost |
+| N13 Why-now (feasible set expands with model quality) | N14 moat; N16 ask | Long-AI-progress positioning underwrites both defensibility and the milestone plan |
+
+Projection rule for slides: a slide may render any connected region of the DAG, but every proposition it asserts must appear as a node here first. If slide copy needs a claim with no node, the DAG is incomplete; add the node before writing the copy.
 
 ## The discharge test (why the reveal is an "of course")
 
@@ -249,4 +266,4 @@ Columns per node: proposition · evidence · likely objection · transition ("th
 3. **Cite-check** Upjohn and Hickman quotes and the 49-state ownership figure before any external use.
 4. **All inherited [NEED]s** from the 2026-08-15 deck (price per seat, market multipliers, GTM funnel counts) remain open and remain visibly bracketed.
 5. **Level 1 material** (general architecture: reasoning partner + trust institution + incumbent enrollment) is deliberately excluded from this deck beyond N16's single line; it enters the repository through `06`/`07`/`09` before appearing in any artifact. Not yet written.
-6. **Timebox honored:** this map supersedes the four-layer stack and the six-column table (their columns are absorbed as node metadata). Next artifact is slides, laid out from this graph. No round-four ontology revision before the slide pass.
+6. **Timebox honored:** this map supersedes the four-layer stack and the six-column table (their columns are absorbed as node metadata), and the DAG amendment of 2026-08-17 is incorporated above as a refinement of this artifact, not a replacement of it. Next artifact is slides, laid out as projections of this DAG. No further ontology revision before the slide pass; new propositions discovered while drafting slides enter as nodes here first, per the projection rule.
